@@ -9,3 +9,4 @@ with open("sample.log",encoding="utf-8")as f:
 #print(total)
 #print(errors)
 print(f"总行数{total}\nERROR{errors}行")
+#print(total)
