@@ -4,8 +4,8 @@
 
 - [x] 练习 1：词频统计 → `01_word_count.py`
 - [x] 练习 2：日志统计 → `02_log_count.py`
-- [ ] 练习 3：命令行小计算器 → `03_calculator.py`
-- [ ] LeetCode 1「两数之和」→ `../leetcode/0001_two_sum.py`
+- [x] 练习 3：命令行小计算器 → `03_calculator.py`
+- [x] LeetCode 1「两数之和」→ `../leetcode/0001_two_sum.py`
 
 ---
 

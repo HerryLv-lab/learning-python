@@ -17,6 +17,7 @@ def two_sum(nums,target):
         else:
             seen[nums[i]] = i
     return[]
-print(two_sum([2,7,11,15],26))
+if __name__ == "__main__":
+    print(two_sum([2,7,11,15],26))
 
 
