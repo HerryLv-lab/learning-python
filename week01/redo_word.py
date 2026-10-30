@@ -10,3 +10,12 @@
 # 卡住时先自己试：改一点、跑一下、看输出。
 
 # 在下面开始写 ↓
+seen = {}
+sentence = input("请输入一句英语：")
+for word in sentence.lower().split():
+    if word in seen:
+        seen[word] += 1
+    else:
+        seen[word] = 1
+ordered = sorted(seen.items(), key = lambda x:x[1], reverse = True)
+print("|".join(f"{w}->{i}" for w,i in ordered))
