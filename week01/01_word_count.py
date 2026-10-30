@@ -6,5 +6,4 @@ for word in sentence.lower().split():
     else:
         counts[word] = 1
 pairs = sorted(counts.items(),key = lambda x:x[1],reverse = True)
-print("|".join(f"{w} {n}"for w,n in pairs))
-
+print("|".join(f"{w} -> {n}"for w,n in pairs))
