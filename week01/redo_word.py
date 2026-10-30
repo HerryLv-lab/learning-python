@@ -18,4 +18,4 @@ for word in sentence.lower().split():
     else:
         seen[word] = 1
 ordered = sorted(seen.items(), key = lambda x:x[1], reverse = True)
-print("|".join(f"{w}->{i}" for w,i in ordered))
+print(" | ".join(f"{w}->{i}" for w,i in ordered))
