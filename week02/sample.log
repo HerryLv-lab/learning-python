@@ -1,0 +1,15 @@
+2026-10-20 08:01:12 INFO  service started, pid=1024
+2026-10-20 08:01:15 INFO  connected to db 10.0.0.8:5432
+2026-10-20 08:02:03 WARN  slow query: 1.82s SELECT * FROM orders
+2026-10-20 08:05:44 ERROR failed to send mail: timeout after 30s
+2026-10-20 08:06:01 INFO  retry send mail, attempt=2
+2026-10-20 08:06:32 ERROR failed to send mail: timeout after 30s
+2026-10-20 08:07:10 INFO  retry send mail, attempt=3
+2026-10-20 08:07:41 INFO  mail sent to user=10086
+2026-10-20 09:12:00 WARN  memory usage 82% (6.5G/8G)
+2026-10-20 09:30:22 ERROR db connection lost, reconnecting
+2026-10-20 09:30:25 INFO  db reconnected in 2.1s
+2026-10-20 10:00:00 INFO  daily report generated
+2026-10-20 10:15:37 ERROR disk usage 95% on /var/log
+2026-10-20 10:16:02 WARN  rotated logs, freed 1.2G
+2026-10-20 11:04:19 INFO  health check ok
