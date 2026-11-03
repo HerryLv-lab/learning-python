@@ -21,3 +21,4 @@ env/
 # 系统
 .DS_Store
 Thumbs.db
+output.txt
