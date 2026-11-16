@@ -1,5 +1,5 @@
 
-def has_duplicate(nums):
+def has_duplicate(nums: list[int]) -> bool:
     for i in range(len(nums)) :
         for j in range(i+1, len(nums)):
             if nums[i] == nums[j]:
@@ -9,7 +9,7 @@ def has_duplicate(nums):
 print(has_duplicate([2,3,4,5,6,7]))
 print(has_duplicate([2,3,4,3,6,7]))
 
-def has_duplicate2(nums):
+def has_duplicate2(nums:list[int]) -> bool:
     seen = {}
     for num in nums:
         if num not in seen:

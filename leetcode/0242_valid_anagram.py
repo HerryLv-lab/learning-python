@@ -1,4 +1,4 @@
-def is_anagram(s,t):
+def is_anagram(s:str,t:str) -> bool:
     if len(s)!=len(t):
         return False
     counts = {}
