@@ -8,4 +8,3 @@ print(count_words("   "))  # 0
 print(count_words("a b  c"))  # 3
 print(count_words(""))  # 0
 print(count_words("one"))  # 1
-    
